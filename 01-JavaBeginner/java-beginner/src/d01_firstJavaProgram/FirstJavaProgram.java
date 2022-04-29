@@ -1,4 +1,4 @@
-package d01_firstJavaProgram;
+package d01_FirstJavaProgram;
 
 public class FirstJavaProgram {
 
