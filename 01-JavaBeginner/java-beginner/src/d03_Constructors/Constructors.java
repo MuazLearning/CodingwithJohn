@@ -10,7 +10,6 @@ public class Constructors {
 //        System.out.println(myDog.name + " : " + myDog.age);
 
         Constants myConstants = new Constants();
-        myConstants.
         System.out.println(Constants.MY_NAME);
     }
 }
