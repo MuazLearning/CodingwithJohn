@@ -1,4 +1,4 @@
-package d02_ProjectPineaplle;
+package d02_projectPineaplle;
 
 public class Cat {
 
