@@ -1,0 +1,18 @@
+package d10_generics;
+
+import java.io.Serializable;
+
+public class Printer<T extends Animal & Serializable>{
+
+    T t;
+
+    public Printer(T t) {
+        this.t = t;
+    }
+
+    public void print() {
+        t.eat();
+//        System.out.println(t);
+        System.out.println(t.getClass().getSimpleName());
+    }
+}
